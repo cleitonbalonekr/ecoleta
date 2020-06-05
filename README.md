@@ -3,7 +3,7 @@
 </h1>
 
 <h3 align="center">
-  Marketplaace de coleta de resíduos
+  Marketplace de coleta de resíduos
 </h3>
 
 <p align="center">
