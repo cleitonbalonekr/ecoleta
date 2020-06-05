@@ -16,6 +16,7 @@
 <p align="center">
   <img alt="App Demo" src=".github/home.png" >
   <img alt="App Demo" src=".github/create-point.png">
+  <img alt="App Demo" src=".github/app.gif">
 </p>    
 
 ## :dart: Projeto
