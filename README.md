@@ -19,7 +19,7 @@
 </p>    
 
 ## :dart: Projeto
-  O Ecoleta foi desenvolvido na Next Level Week evento da Rocketseat.
+  O Ecoleta foi desenvolvido na Next Level Week evento da [Rocketseat](https://rocketseat.com.br/).
   O objetivo do projeto e ajudar os usuário a encontrarem pontos de coletas próximos à eles, Os donos de ponto de coleta podem cadastrar seu ponto no site do Ecoleta  e ele podem ser encontrado usando o app mobile.
 
 
