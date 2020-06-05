@@ -67,7 +67,7 @@ const Points = () => {
   useEffect(() => {
     api.get("/items").then((response) => {
       setItems(response.data);
-      console.log("opasas",response.data);
+      
       
     });
   }, []);
@@ -98,11 +98,12 @@ const Points = () => {
         return;
       }
   
-      const location = await Location.getCurrentPositionAsync({accuracy:Location.Accuracy.High});
+      const location = await Location.getCurrentPositionAsync({});
      
       console.log('era',location.coords);
       
       const { latitude, longitude } = location.coords;
+      console.log('era',latitude,longitude);
       setInitialPosition([latitude, longitude]);
     })()
     
@@ -118,7 +119,7 @@ const Points = () => {
         <Text style={styles.description}>Encontre um ponto de coleta.</Text>
 
         <View style={styles.mapContainer}>
-          {initialPosition[0] === 0 && (
+          {initialPosition[0] !== 0 && (
             <MapView
               style={styles.map}
               initialRegion={{
