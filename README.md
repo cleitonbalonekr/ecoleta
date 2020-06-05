@@ -75,5 +75,5 @@ $ yarn start
 ```
 
 ---
-Feito com :heart: por Cleiton
+Made with :heart: by Cleiton
 
